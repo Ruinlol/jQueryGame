@@ -1,0 +1,106 @@
+@import 'variables';
+@import 'reset';
+
+body{
+	font-family: cursive;
+	background-color: $body-color;
+}
+#containter {
+	width: 1400px;
+    margin: auto;
+}
+#score {
+	width: 1340px;
+    margin: auto;
+    padding: 30px;
+    background-color: #333333;
+    display: inline-block;
+    line-height: 100%;
+}
+
+#game {
+	height: 787.5px;
+    width: 1400px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background: url("../img/Background_game.jpg");
+    background-size: 100%;
+    position: relative;
+    top: -2px;
+    #number {
+    	color: white;
+    	font-size: 2em;
+    	display: block;
+    	position: relative;
+    	top: 724px;
+    	left: 20px;
+    }
+     #remaining {
+	    color: white;
+		font-size: 2em;
+		display: block;
+		position: relative;
+		width: 500px;
+		top: 694px;
+		left: 1087px;
+    }
+}
+.gameStats {
+	font-size: 2em;
+	color: white;
+	text-shadow: 5px 5px #000000;
+	float: left;
+}
+.lives {
+    float: left;
+    background: url("../img/hearth.png");
+    height: 26px;
+    width: 27px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+}
+#player {
+	background: url("../img/warrior.png");
+    width: 95px;
+    height: 183px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 459px;
+    left: 594px;
+}
+
+#bat {
+	background: url("../img/Vampire_bat.png");
+    height: 33px;
+    width: 74px;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top: 368px;
+    left: 1328px;
+}
+#result {
+	border-radius: 50%;
+	display: none;
+	position: relative;
+	top: -500px;
+	width: 500px;
+	margin: auto;
+	background-color: #333333;
+	padding: 20px;
+	font-size: 1.6em;
+	color: white;
+	text-align: center;
+	text-shadow: 5px 5px #000000;
+	#top {
+	   	font-size: 1.3em;
+	}
+	#win {
+		padding: 10px;
+	}
+	#loss {
+		padding: 10px;
+	}
+}

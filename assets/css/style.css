@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: cursive;
+  background-color: #808080; }
+
+#containter {
+  width: 1400px;
+  margin: auto; }
+
+#score {
+  width: 1340px;
+  margin: auto;
+  padding: 30px;
+  background-color: #333333;
+  display: inline-block;
+  line-height: 100%; }
+
+#game {
+  height: 787.5px;
+  width: 1400px;
+  background-repeat: no-repeat;
+  margin: auto;
+  background: url("../img/Background_game.jpg");
+  background-size: 100%;
+  position: relative;
+  top: -2px; }
+  #game #number {
+    color: white;
+    font-size: 2em;
+    display: block;
+    position: relative;
+    top: 724px;
+    left: 20px; }
+  #game #remaining {
+    color: white;
+    font-size: 2em;
+    display: block;
+    position: relative;
+    width: 500px;
+    top: 694px;
+    left: 1087px; }
+
+.gameStats {
+  font-size: 2em;
+  color: white;
+  text-shadow: 5px 5px #000000;
+  float: left; }
+
+.lives {
+  float: left;
+  background: url("../img/hearth.png");
+  height: 26px;
+  width: 27px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 6px; }
+
+#player {
+  background: url("../img/warrior.png");
+  width: 95px;
+  height: 183px;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: 459px;
+  left: 594px; }
+
+#bat {
+  background: url("../img/Vampire_bat.png");
+  height: 33px;
+  width: 74px;
+  display: inline-block;
+  background-size: contain;
+  position: absolute;
+  top: 368px;
+  left: 1328px; }
+
+#result {
+  border-radius: 50%;
+  display: none;
+  position: relative;
+  top: -500px;
+  width: 500px;
+  margin: auto;
+  background-color: #333333;
+  padding: 20px;
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px #000000; }
+  #result #top {
+    font-size: 1.3em; }
+  #result #win {
+    padding: 10px; }
+  #result #loss {
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
